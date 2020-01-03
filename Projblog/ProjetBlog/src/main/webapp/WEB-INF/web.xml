@@ -13,9 +13,86 @@
 		<servlet-name>ServletTest2</servlet-name>
 		<servlet-class>com.blog.servlets.ServletTest2</servlet-class>
 	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletAccueil</display-name>
+		<servlet-name>ServletAccueil</servlet-name>
+		<servlet-class>com.blog.servlets.ServletAccueil</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletListeArticle</display-name>
+		<servlet-name>ServletListeArticle</servlet-name>
+		<servlet-class>com.blog.servlets.ServletListeArticle</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletConsulterArticle</display-name>
+		<servlet-name>ServletConsulterArticle</servlet-name>
+		<servlet-class>com.blog.servlets.ServletConsulterArticle</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletConsulterAuteur</display-name>
+		<servlet-name>ServletConsulterAuteur</servlet-name>
+		<servlet-class>com.blog.servlets.ServletConsulterAuteur</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletPostArticle</display-name>
+		<servlet-name>ServletPostArticle</servlet-name>
+		<servlet-class>com.blog.servlets.ServletPostArticle</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletEditerArticle</display-name>
+		<servlet-name>ServletEditerArticle</servlet-name>
+		<servlet-class>com.blog.servlets.ServletEditerArticle</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletSupprArticle</display-name>
+		<servlet-name>ServletSupprArticle</servlet-name>
+		<servlet-class>com.blog.servlets.ServletSupprArticle</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>ServletTest2</servlet-name>
 		<url-pattern>/ServletTest2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServletAccueil</servlet-name>
+		<url-pattern>/Accueil</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServletListeArticle</servlet-name>
+		<url-pattern>/ListeArticle</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServletConsulterArticle</servlet-name>
+		<url-pattern>/Article</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServletConsulterAuteur</servlet-name>
+		<url-pattern>/ListeAuteurs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServletPostArticle</servlet-name>
+		<url-pattern>/PostArticle</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServletEditerArticle</servlet-name>
+		<url-pattern>/EditerArticle</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServletSupprArticle</servlet-name>
+		<url-pattern>/SupprArticle</url-pattern>
 	</servlet-mapping>
 
 
